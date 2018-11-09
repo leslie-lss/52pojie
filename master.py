@@ -24,30 +24,4 @@ def get_id_from_mongo():
 if __name__ == '__main__':
     get_id_from_mongo()
 
-# line = "影音娱乐" + '\t' + "www.top100.cn" + '\t' + "nc.001pot.www" + '\t' + "巨鲸网"
-# line = "母婴儿童" + '\t' + "www.babyhome.com.tw" + '\t' + "wt.moc.emohybab.www" + '\t' + "宝贝家庭亲子网"
-# line = "财经证券" + '\t' + "www.ghzq.com.cn" + '\t' + "nc.moc.qzhg.www" + '\t' + "null"
-# r.rpush('url_group', line)
-
-# while True:
-#     line = fo.readline()
-#     if line:
-#         r.rpush('url', line)
-#     else:
-#         break
-
-# lines = fo.readlines()
-#
-# for line in lines:
-#     r.rpush('url', line)
-
-# url_list = []
-# for line in lines:
-#     url = line.split(',')[0]
-#     url = url.replace(url[0], "")
-#     url_list.append("http://" + url)
-#
-# for url in url_list:
-#     r.rpush('url',url)
-
 print("success0")
